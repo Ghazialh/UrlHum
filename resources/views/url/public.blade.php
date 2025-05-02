@@ -1,6 +1,6 @@
 @extends('layouts.app',  ['title' => trans('url.public')])
 @section('content')
-    <div class="header bg-gradient-primary mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7"></div>
+    <div class="header bg-gradient-red-inka mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7"></div>
     <div class="container-fluid col-lg-10 col-md-12">
         <div class="header-body">
             <div class="card">
@@ -13,7 +13,7 @@
                                         <h3 class="mb-0">{{ __('url.public') }}</h3>
                                     </div>
                                     <div class="col-4 text-right">
-                                        <a href="{{ route('home') }}" class="btn btn-sm btn-primary">{{ __('url.new') }}</a>
+                                        <a href="{{ route('home') }}" class="btn btn-sm btn-darker">{{ __('url.new') }}</a>
                                     </div>
                                 </div>
                             </div>

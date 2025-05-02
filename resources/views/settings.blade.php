@@ -1,6 +1,6 @@
 @extends('layouts.app', ['title' => trans('settings.system')])
 @section('content')
-    <div class="header bg-gradient-primary mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7"></div>
+    <div class="header bg-gradient-red-inka mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7"></div>
     <div class="container-fluid col-lg-10 col-md-12">
         <div class="header-body">
             <div class="card col-lg-8 col-md-12 col-sm-12 d-md-flex ml-md-auto mr-md-auto">
@@ -167,7 +167,7 @@
                                         </label>
                                         <div class="col-sm-8 col-md-6">
                                             <button style="display: none;" type="button"
-                                                    class="btn btn-primary" id="editPrivacyBtn"
+                                                    class="btn btn-darker" id="editPrivacyBtn"
                                                     data-toggle="modal" data-target="#privacyModal">
                                                 {{ __('settings.privacy_policy_edit') }}
                                             </button>
@@ -192,7 +192,7 @@
                                         </label>
                                         <div class="col-sm-8 col-md-6">
                                             <button style="display: none;" type="button"
-                                                    class="btn btn-primary" id="editTermsBtn"
+                                                    class="btn btn-darker" id="editTermsBtn"
                                                     data-toggle="modal" data-target="#TermsModal">
                                                 {{ __('settings.tos_edit') }}
                                             </button>
@@ -427,7 +427,7 @@
                                                     <button type="button" class="btn btn-secondary"
                                                             data-dismiss="modal">{{ __('urlhum.close') }}</button>
                                                     <button type="submit"
-                                                            class="btn btn-primary">{{ __('settings.save_changes') }}</button>
+                                                            class="btn btn-darker">{{ __('settings.save_changes') }}</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -456,7 +456,7 @@
                                                     <button type="button" class="btn btn-secondary"
                                                             data-dismiss="modal">{{ __('urlhum.close') }}</button>
                                                     <button type="submit"
-                                                            class="btn btn-primary">{{ __('settings.save_changes') }}</button>
+                                                            class="btn btn-darker">{{ __('settings.save_changes') }}</button>
                                                 </div>
                                             </div>
                                         </div>

@@ -1,19 +1,19 @@
 @extends('layouts.app',  ['title' => trans('url.my.my')])
 @section('content')
-    <div class="header bg-gradient-primary mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7"></div>
+    <div class="header bg-gradient-red-inka mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7"></div>
     <div class="container-fluid col-lg-8 col-md-10 col-sm-12">
         <div class="header-body">
             <div class="card">
                 <div class="row">
                     <div class="col">
                         <div class="card shadow">
-                            <div class="card-header border-0">
+                            <div class="card-header border-0 bg-gradient-red-inka">
                                 <div class="row align-items-center">
                                     <div class="col-8">
-                                        <h3 class="mb-0">{{ __('url.my.my') }}</h3>
+                                        <h3 class="mb-0 text-white">{{ __('url.my.my') }}</h3>
                                     </div>
                                     <div class="col-4 text-right">
-                                        <a href="{{ route('home') }}" class="btn btn-sm btn-primary">{{ __('url.new') }}</a>
+                                        <a href="{{ route('home') }}" class="btn btn-sm btn-darker">{{ __('url.new') }}</a>
                                     </div>
                                 </div>
                             </div>

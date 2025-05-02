@@ -1,6 +1,6 @@
 @extends('layouts.app',  ['title' => trans('url.edit.short')])
 @section('content')
-    <div class="header bg-gradient-primary mb-3 pt-6 d-none d-lg-block d-md-block pt-md-7"></div>
+    <div class="header bg-gradient-red-inka mb-3 pt-6 d-none d-lg-block d-md-block pt-md-7"></div>
     <div class="container-fluid col-lg-10 col-sm-12 m-auto">
         <div class="header-body">
             <div class="row">
@@ -72,7 +72,7 @@
                                     <form method="POST" action="/url/{{$data['url']->short_url}}">
                                         @csrf
                                         <p>
-                                            <a class="btn btn-primary" data-toggle="collapse" href="#retarget" role="button" aria-expanded="false">Retarget device <i class="ni ni-mobile-button"></i></a>
+                                            <a class="btn btn-darker" data-toggle="collapse" href="#retarget" role="button" aria-expanded="false">Retarget device <i class="ni ni-mobile-button"></i></a>
                                         </p>
                                         <div class="row mb-4">
                                             <div class="col">

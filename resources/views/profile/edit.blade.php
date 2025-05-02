@@ -1,7 +1,7 @@
 @extends('layouts.app', ['title' => trans('account.edit')])
 
 @section('content')
-    <div class="header bg-gradient-primary mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7">
+    <div class="header bg-gradient-red-inka mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7">
     </div>
     <div class="container-fluid col-lg-6 col-sm-10 m-auto">
         <div class="header-body">
@@ -9,10 +9,10 @@
                 <div class="container-fluid">
                     <div class="col">
                         <div class="card bg-secondary shadow">
-                            <div class="card-header bg-white border-0">
+                            <div class="card-header bg-gradient-red-inka border-0">
                                 <div class="row align-items-center">
                                     <div class="col-8">
-                                        <h3 class="mb-0">{{ __('account.edit') }}</h3>
+                                        <h3 class="mb-0 text-white">{{ __('account.edit') }}</h3>
                                     </div>
                                 </div>
                             </div>

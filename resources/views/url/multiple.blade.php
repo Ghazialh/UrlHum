@@ -1,12 +1,12 @@
 @extends('layouts.app',  ['title' => trans('url.multiple.title')])
 @section('content')
-    <div class="header bg-gradient-primary mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7"></div>
+    <div class="header bg-gradient-red-inka mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7"></div>
     <div class="container-fluid col-lg-8 col-md-10 col-sm-12">
         <div class="card shadow">
-            <div class="card-header border-0">
+            <div class="card-header border-0 bg-gradient-red-inka">
                 <div class="row align-items-center">
                     <div class="col-8">
-                        <h3 class="mb-0">{{ __('url.multiple.new') }}</h3>
+                        <h3 class="mb-0 text-white">{{ __('url.multiple.new') }}</h3>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                                     {{ Session::get('siteUrl') }}/{{ $shortened }}
                                 @endforeach
                             </textarea>
-                            <button class="btn btn-icon btn-primary mr-0" type="button" id="copy-generated-urls-btn">
+                            <button class="btn btn-icon btn-darker mr-0" type="button" id="copy-generated-urls-btn">
                                 <span class="btn-inner--icon"><i class="ni ni-single-copy-04"></i></span>
                                 <span class="btn-inner--text">Copy all</span>
                             </button>
@@ -93,8 +93,8 @@
                         </div>
                     </div>
                     @csrf
-                    <button type="submit" class="btn btn-primary mb-3 float-right">
-                        Invia
+                    <button type="submit" class="btn btn-darker mb-3 float-right">
+                        Create
                     </button>
             </form>
         </div>

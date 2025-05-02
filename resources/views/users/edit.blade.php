@@ -1,7 +1,7 @@
 @extends('layouts.app', ['title' => trans('account.management')])
 
 @section('content')
-    <div class="header bg-gradient-primary mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7">
+    <div class="header bg-gradient-red-inka mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7">
     </div>
     <div class="container-fluid">
         <div class="header-body">
@@ -15,7 +15,7 @@
                                 <h3 class="mb-0">{{ __('account.management') }}</h3>
                             </div>
                             <div class="col-4 text-right">
-                                <a href="{{ route('user.index') }}" class="btn btn-sm btn-primary">{{ __('account.back_list') }}</a>
+                                <a href="{{ route('user.index') }}" class="btn btn-sm btn-darker">{{ __('account.back_list') }}</a>
                             </div>
                         </div>
                     </div>

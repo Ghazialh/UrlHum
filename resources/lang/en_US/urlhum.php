@@ -16,7 +16,7 @@ return [
   'design_by' => 'Design by',
   'users' => 'Users',
   'welcome' => 'Welcome!',
-  'accessFeatures' => 'Sign up or Sign in to access all features',
+  'accessFeatures' => 'Shorten Your INKA Links',
   'search' => 'Search',
   'account' => 'Account',
   'logout' => 'Logout',

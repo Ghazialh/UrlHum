@@ -35,7 +35,7 @@
                                 @endif
                             </div>
                             <div class="text-center">
-                                <button type="submit" class="btn btn-primary my-4">{{ __('account.password.send') }}</button>
+                                <button type="submit" class="btn btn-darker my-4">{{ __('account.password.send') }}</button>
                             </div>
                         </form>
                     </div>

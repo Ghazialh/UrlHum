@@ -1,6 +1,6 @@
 @extends('layouts.app', ['title' => trans('urlhum.termsofuse')])
 @section('content')
-    <div class="header bg-gradient-primary mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7">
+    <div class="header bg-gradient-red-inka mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7">
     </div>
     <div class="container-fluid">
         <div class="header-body">

@@ -6,13 +6,13 @@
 @endif
         mb-5 mb-xl-0">
     <div class="card shadow">
-        <div class="card-header border-0">
+        <div class="card-header border-0 bg-gradient-red-inka">
             <div class="row align-items-center">
                 <div class="col">
-                    <h3 class="mb-0">{{ __('url.latest') }}</h3>
+                    <h3 class="mb-0 text-white">{{ __('url.latest') }}</h3>
                 </div>
                 <div class="col text-right">
-                    <a href="{{ route('url.public') }}" class="btn btn-sm btn-primary">{{ __('url.all') }}</a>
+                    <a href="{{ route('url.public') }}" class="btn btn-sm btn-darker">{{ __('url.all') }}</a>
                 </div>
             </div>
         </div>

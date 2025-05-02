@@ -60,6 +60,7 @@ class HomeController extends Controller
 
         if (! setting('show_guests_latests_urls') && $anonymous) {
             $publicWidget = null;
+            return view('auth.login');
         }
 
         if (! $anonymous && isAdmin() && ! setting('disable_referers')) {

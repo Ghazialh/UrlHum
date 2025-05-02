@@ -1,7 +1,7 @@
 @extends('layouts.app', ['title' => trans('analytics.referer.referers')])
 @section('content')
 
-    <div class="header bg-gradient-primary mb-3 pt-6 d-none d-lg-block d-md-block pt-md-7"></div>
+    <div class="header bg-gradient-red-inka mb-3 pt-6 d-none d-lg-block d-md-block pt-md-7"></div>
     <div class="container-fluid col-lg-6 col-md-8 col-sm-10 col-12">
         <div class="header-body">
             <div class="card">
@@ -14,7 +14,7 @@
                                         <h1 class="mb-0">{{ __('analytics.referer.referers') }}</h1>
                                     </div>
                                     <div class="col-4 text-right">
-                                        <a href="{{route('url.list')}}" class="btn btn-sm btn-primary">{{ __('url.list') }}</a>
+                                        <a href="{{route('url.list')}}" class="btn btn-sm btn-darker">{{ __('url.list') }}</a>
                                     </div>
                                 </div>
                             </div>

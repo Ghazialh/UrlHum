@@ -50,7 +50,7 @@
                                 <input type="url" class="form-control" id="longUrl" name="url"
                                        placeholder="https://website.com" required>
                                 <div class="input-group-append">
-                                    <input type="submit" class="btn btn-primary">
+                                    <input type="submit" class="btn btn-darker">
                                 </div>
                                 @honeypot
 
@@ -126,7 +126,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary">Salva</button>
+                            <button type="button" class="btn btn-darker">Salva</button>
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
                         </div>
                     </div>

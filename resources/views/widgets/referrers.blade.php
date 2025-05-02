@@ -6,7 +6,7 @@
                     <h3 class="mb-0">{{ __('analytics.referer.best') }}</h3>
                 </div>
                 <div class="col text-right">
-                    <a href="{{ route('url.referers') }}" class="btn btn-sm btn-primary">{{ __('url.all') }}</a>
+                    <a href="{{ route('url.referers') }}" class="btn btn-sm btn-darker">{{ __('url.all') }}</a>
                 </div>
             </div>
         </div>

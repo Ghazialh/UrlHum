@@ -100,7 +100,7 @@
                             </div>
                             @endif
                             <div class="text-center">
-                                <button type="submit" class="btn btn-primary mt-4">{{ __('account.create') }}</button>
+                                <button type="submit" class="btn btn-darker mt-4">{{ __('account.create') }}</button>
                             </div>
 
                         </form>

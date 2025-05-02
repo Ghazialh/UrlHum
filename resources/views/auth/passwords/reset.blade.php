@@ -51,7 +51,7 @@
                                 </div>
                             </div>
                             <div class="text-center">
-                                <button type="submit" class="btn btn-primary my-4">{{ __('account.password.reset') }}</button>
+                                <button type="submit" class="btn btn-darker my-4">{{ __('account.password.reset') }}</button>
                             </div>
                         </form>
                     </div>

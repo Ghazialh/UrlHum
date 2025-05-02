@@ -1,6 +1,6 @@
 @extends('layouts.app', ['title' => 'Access Tokens'])
 @section('content')
-    <div class="header bg-gradient-primary mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7"></div>
+    <div class="header bg-gradient-red-inka mb-3 pt-6 	d-none d-lg-block d-md-block pt-md-7"></div>
     <div class="container-fluid">
         <div class="header-body">
             <div class="card">
@@ -37,7 +37,7 @@
                             <label for="name" class="sr-only">Token Name</label>
                             <input type="text" class="form-control" id="name" name="name" placeholder="Token name">
                         </div>
-                        <button type="submit" class="btn btn-primary mb-2">Create New</button>
+                        <button type="submit" class="btn btn-darker mb-2">Create New</button>
                     </form>
 
                     <table class="table mt-4">

@@ -1,4 +1,7 @@
-<div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
+<div class="header bg-gradient-red-inka pt-6">
+    
+</div>
+<div class="pb-8 pt-5 pt-md-8">
     <div class="container-fluid col-lg-8 col-md-10 col-sm-12">
         <div class="header-body @if(!Auth::check()) anonymous @endif">
             <!-- Card stats -->
